@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://devch-404-not-found-page.vercel.app">
+    <a href="https://devch-404-not-found-page.vercel.app" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/67wRkJe0B2vb1OP0mAAb">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY" target="_blank">
       Challenge
     </a>
   </h3>
