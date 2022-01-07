@@ -1,0 +1,128 @@
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 4rem;
+    height: 100vh;
+}
+
+.header {
+    grid-row: 1 / 2;
+    margin-left: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.header__title {
+    color: #333333;
+    font-family: Inconsolata, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+
+.main {
+    grid-row: 2 / 3;
+    margin-bottom: 7.125rem;
+}
+
+.main__img {
+    display: block;
+    width: 17.933rem;
+    margin: 0 auto;
+}
+
+.main__content {
+    margin-top: 3.75rem;
+    margin-left: 1.5rem;
+    font-family: 'Space Mono', sans-serif;
+    letter-spacing: -0.035em;
+}
+
+.content__title {
+    color: #333333;
+    margin-bottom: 1.875rem;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4.438rem;
+}
+
+.content__text {
+    color: #4F4F4F;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    margin-bottom: 4.125rem;
+    margin-right: 1.5rem;
+}
+
+.content__btn {
+    padding: 1.5rem 2.688rem 1.438rem 2.688rem;
+    background-color: #333333;
+    border: none;
+    cursor: pointer;
+}
+.btn__link {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer {
+    grid-row: 3 / 4;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.footer__text {
+    color: #BDBDBD;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.063rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .main {
+        display: flex;
+    }
+
+    .main__img {
+        width: 33.701rem;
+        margin-left: 4rem;
+        margin-right: 7rem;
+    }
+
+    .content__title {
+        margin-right: 7rem;
+    }
+
+    .content__text {
+        margin-right: 14rem;
+    }
+}
+@media screen and (min-width: 1440px){
+    
+    .header {
+        margin-top: 2.5rem;
+        margin-left: 4.813rem;
+    }
+
+    .main__img {
+        margin-left: 4.813rem;
+        margin-right: 7.424rem;
+    }
+
+    .content__title {
+        margin-right: 7.424rem;
+        font-size: 4rem;
+        line-height: 5.938rem;
+    }
+
+    .content__text {
+        font-size: 1.5rem;
+        margin-right: 20.188rem;
+        line-height: 2.25rem;
+    }
+}
